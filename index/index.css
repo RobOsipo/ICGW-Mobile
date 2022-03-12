@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
 
 *{
     box-sizing: border-box;
@@ -9,8 +9,44 @@
 
 body{
     background-color: rgb(29, 28, 28);
+    color: #fff;
 }
 
-main{
+.hero-flex-container {
     
+    min-height: 100vh;
+    background-image: url("./home-images/jessica-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(70, 69, 69);;
+    background-blend-mode: overlay;
+    
+    
+    
+
+}
+.top {
+   
+    margin-bottom: 35vh;
+
+}
+.bottom {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+    font-family: 'EB Garamond', serif;
+    
+}
+.usa {
+   display: flex;
+   justify-content: center;
+}
+.flag {
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url('./home-images/usa-us-flag.gif');
+    text-shadow: rgb(143, 171, 182) 0px 0px 10px;
 }
