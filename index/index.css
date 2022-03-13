@@ -111,6 +111,10 @@ body{
     .three {
         padding-left: 6vw;
     }
+    .usa {
+        left: 19vw;
+        font-size: 2em;
+    }
 }
 
 /* //////////////////////////
