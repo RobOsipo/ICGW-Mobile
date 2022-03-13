@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap');
+
 /* //////////////////////////
     GLOBAL STYLES
 ////////////////////////////*/
@@ -15,13 +17,23 @@
 
 body{
     background-color: rgb(29, 28, 28);
-    color: #fff;
+    color: rgba(240,240,240,.97);
 }
 
 
 /* //////////////////////////
     HERO SECTION
 ////////////////////////////*/
+
+.company-name {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: rgb(7, 7, 7) 5px 5px 10px;
+    color: rgba(240,240,240,.97);
+    
+}
 
 .hero-flex-container {
     
@@ -36,8 +48,8 @@ body{
     
 }
 .top {
-   
-    margin-bottom: 35vh;
+    
+    margin: .6em 0 35vh 1em;
 
 }
 .bottom {
@@ -94,7 +106,7 @@ body{
 }
 .origin-business {
     font-family: 'Acme', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-top: .8em;
     padding-bottom: 2em;
     
@@ -109,7 +121,7 @@ body{
 }
 .contact-us:hover,
 .contact-us:focus {
-    font-size: 1.1em;
+    font-size: 1.2em;
     color:#033e5a;
     
 }
@@ -205,3 +217,19 @@ body{
     to {opacity: 1}
   }
   
+
+  /* //////////////////////////
+   FOOTER
+////////////////////////////*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-quotes {
+    background: rgb(56, 55, 55);
+    text-align: center;
+}
