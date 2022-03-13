@@ -1,4 +1,30 @@
 
+//// Hero Section jQuery ////
+
+$('.company-name').hide()
+$('.hero-flex-item').hide()
+$('.flag').hide()
+
+
+setTimeout(() => {
+    $(".company-name").fadeIn(800)
+}, 500)
+
+setTimeout(() => {
+    $('.hero-flex-item').fadeIn(800)
+}, 1150)
+
+setTimeout(() => {
+    $('.flag').fadeIn(800)
+}, 1500)
+
+// setTimeout(() => {
+//     $('.three').fadeIn(800)
+// }, 1500)
+
+// setTimeout(() => {
+//     $('.one').fadeIn(800)
+// }, 1000)
 
 
 //// IMG Carousel /////
