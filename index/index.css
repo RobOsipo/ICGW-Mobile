@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /* //////////////////////////
-    GLOBAL STYLES (nav menu at bottom fo readability)
+    GLOBAL STYLES (nav menu at bottom for readability)
 ////////////////////////////*/
 
 
@@ -12,6 +13,7 @@
     margin: 0;
     padding: 0;
     cursor: crosshair;
+    
 }
 
 
@@ -32,9 +34,12 @@ body{
     font-weight: 700;
     text-shadow: rgb(7, 7, 7) 5px 5px 10px;
     color: rgba(240,240,240,.97);
-    
+    transition: color 350ms;
 }
-
+.company-name:hover {
+    color: rgb(22, 94, 117);
+    cursor: pointer;
+}
 .hero-flex-container {
     
     min-height: 100vh;
@@ -45,12 +50,9 @@ body{
     flex-direction: column;
     background-color: rgb(70, 69, 69);;
     background-blend-mode: overlay;
-    
 }
 .top {
-    
-    margin: .6em 0 35vh 1em;
-
+     margin: .6em 0 35vh 1em;
 }
 .bottom {
     min-height: 40vh;
@@ -60,8 +62,7 @@ body{
     align-items: center;
     margin-bottom: 9vh;
     font-family: 'EB Garamond', serif;
-    text-align: center;
-    
+    text-align: center; 
 }
 .usa {
    display: flex;
@@ -70,8 +71,47 @@ body{
 .flag {
     -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url('./home-images/usa-us-flag.gif');
     text-shadow: rgb(143, 171, 182) 0px 0px 10px;
+    font-size: 1.3em;
+    font-weight: 1000;
 }
 
+@media (min-width: 828px) {
+    .hero-flex-container {
+        flex-direction: row;
+        min-height: 120vh;
+       
+    }
+    
+    .bottom {
+        justify-content: space-around;
+        align-items: flex-start;
+        border: solid black 2px;
+        max-height: 40vh;
+        min-width: 53vw;
+        position: absolute;
+        right: 0vw;
+    }
+    .usa {
+        position: absolute;
+        bottom: -10vh;
+        left: 14vw;
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1128px) {
+    .bottom {
+       align-items: center;
+       justify-content: flex-start;
+       padding-top: 1vh;;
+    }
+    .hero-flex-item {
+        padding-bottom: 8vh;;
+    }
+    .three {
+        padding-left: 6vw;
+    }
+}
 
 /* //////////////////////////
     ORIGIN TEXT CONTAINER
@@ -82,7 +122,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .origin-title {
     margin: 2em 1em;
@@ -116,7 +155,6 @@ body{
     color:#03a9f4;
     text-decoration: none;
     margin-left: .5em;
-    
     transition: all 450ms;
 }
 .contact-us:hover,
@@ -282,10 +320,10 @@ footer {
     display: none;
   }
 .menu {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-      align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     position: fixed;
     transform: translateY(-100%);
     transition: transform 0.2s;
@@ -306,6 +344,7 @@ footer {
 .menuItem {
     color: aliceblue;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     cursor: pointer;
 } 
