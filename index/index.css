@@ -117,7 +117,7 @@ body{
     text-decoration: none;
     margin-left: .5em;
     
-    transition: all 550ms;
+    transition: all 450ms;
 }
 .contact-us:hover,
 .contact-us:focus {
@@ -225,11 +225,39 @@ body{
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
     align-items: center;
 }
 
 .custom-quotes {
-    background: rgb(56, 55, 55);
+    height: 10vh;
+    background: rgb(37, 36, 36);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.custom-quotes > p {
+    font-size: 1.15em;
+   font-weight: 650; 
+   letter-spacing: .9px;
+   min-height: 6vh;
+   margin: auto 0;
+   color: rgb(161, 158, 158);
+}
+.footer-contact {
+    min-height: 10vh;
+    text-decoration: none;
+    padding-top: 3vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(240,240,240,.97);
+    transition: all 350ms;
+}
+.footer-contact:hover,
+.footer-contact:focus {
+    color: #03a9f4 ;
+    font-size: 1.1em;
+    cursor: pointer;
 }
