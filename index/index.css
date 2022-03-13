@@ -79,6 +79,7 @@ body{
     .hero-flex-container {
         flex-direction: row;
         min-height: 120vh;
+        background-position: top;
        
     }
     
