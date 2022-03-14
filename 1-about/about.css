@@ -31,6 +31,8 @@ body{
     text-shadow: rgb(7, 7, 7) 5px 5px 10px;
     color: rgba(240,240,240,.97);
     transition: color 350ms;
+    padding: 3vh 4vh;
+    max-height: 80px;
 }
 .company-name:hover {
     color: rgb(22, 94, 117);
@@ -41,4 +43,26 @@ body{
     background-image: url('./about-images/blackWoodGun.jpg');
     background-size: cover;
     background-position: center;
+    display: flex;
+    background-color: rgb(112, 111, 111);;
+    background-blend-mode: overlay;
+}
+.about {
+    font-family: 'EB Garamond', serif;
+    text-shadow: rgb(122, 129, 131) 0px 0px 10px;
+    align-self: flex-end;
+    padding-bottom: 20vh;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+
+.flag {
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url('./about-images/usa-us-flag.gif');
+    text-shadow: rgb(73, 73, 73) 0px 0px 7px;
+    font-size: 1.5em;
+    font-weight: 1000;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 5vh 0 10vh 0;
 }
