@@ -56,6 +56,9 @@ body{
     margin: 0 auto;
 }
 
+/* //////////////////////////
+    ABOUT  SECTION
+////////////////////////////*/
 
 .flag {
     -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url('./about-images/usa-us-flag.gif');
@@ -64,5 +67,33 @@ body{
     font-weight: 1000;
     max-width: 480px;
     margin: 0 auto;
-    padding: 5vh 0 10vh 0;
+    padding: 5vh 0 20vh 0;
+}
+.about-title {
+    max-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #646262;
+    padding-bottom: 6vh;
+}
+.about-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 480px;
+    margin: 0 auto;
+    padding-bottom: 12vh;
+}
+.about-text {
+    font-size: 1em;
+    font-family: adobe-garamond-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.6em;
+    color: rgba(240,240,240,.97);
 }
