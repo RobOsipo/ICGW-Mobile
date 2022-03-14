@@ -1,3 +1,35 @@
+// a compnay name h1 about h2 flag
+
+// jQuery for hero section 
+
+$('a.company-name').hide()
+$('h1.about').hide()
+$('h2.flag').hide()
+$('h3.about-title').css('padding-top', '30vh')
+
+setTimeout(() => {
+    $('a.company-name').fadeIn()
+}, 500)
+
+setTimeout(() => {
+    $('h1.about').fadeIn()
+}, 1150)
+
+setTimeout(() => {
+    $('h2.flag').fadeIn()
+}, 1500)
+
+setTimeout(() => {
+    $('h3.about-title').css('padding-top', '0')
+}, 1500)
+
+
+
+
+
+
+
+
 
 
 //// IMG Carousel /////
