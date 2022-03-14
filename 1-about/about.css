@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* //////////////////////////
+    GLOBAL STYLES (nav menu at bottom for readability)
+////////////////////////////*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;   
+}
+body{
+    background-color: rgb(29, 28, 28);
+    color: rgba(240,240,240,.97);
+}
+
+/* //////////////////////////
+    HERO SECTION
+////////////////////////////*/
+
+.company-name {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: rgb(7, 7, 7) 5px 5px 10px;
+    color: rgba(240,240,240,.97);
+    transition: color 350ms;
+}
+.company-name:hover {
+    color: rgb(22, 94, 117);
+    cursor: pointer;
+}
+.hero-flex-container {
+    min-height: 80vh;
+    background-image: url('./about-images/blackWoodGun.jpg');
+    background-size: cover;
+    background-position: center;
+}
