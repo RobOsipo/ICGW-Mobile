@@ -44,7 +44,7 @@ body{
     background-size: cover;
     background-position: center;
     display: flex;
-    background-color: rgb(112, 111, 111);;
+    background-color: rgb(102, 102, 102);;
     background-blend-mode: overlay;
 }
 .about {
@@ -54,6 +54,7 @@ body{
     padding-bottom: 20vh;
     max-width: 200px;
     margin: 0 auto;
+    font-size: 1.6em;
 }
 
 /* //////////////////////////
@@ -245,3 +246,78 @@ footer {
     font-size: 1.1em;
     cursor: pointer;
 }
+
+/* //////////////////////////
+   HAMBURGER MENU
+////////////////////////////*/
+
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 3px;
+    background: rgb(29, 28, 28);
+    color: rgba(240,240,240,.97);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 60%;
+  }
+.closeIcon {
+    display: none;
+  }
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgb(29, 28, 28);
+    color: rgba(240,240,240,.97);
+    list-style: none;
+    padding-top: 4rem;
+    opacity: 95%;
+  }
+.showMenu {
+    transform: translateY(0);
+  }
+.menuItem {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    cursor: pointer;
+} 
+.menuItem:hover{
+  color: #03a9f4;
+}
+.menu ul {
+    position: relative;
+  }
+.menu ul li {
+    list-style: none;
+  }
+.menu ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+  }
+.menu ul li a:hover {
+    color: #03a9f4;  
+  } 
+ .menuIcon{
+     margin-bottom: 7px;
+ }
+ .closeIcon{
+     margin-bottom: 7px;
+ }
