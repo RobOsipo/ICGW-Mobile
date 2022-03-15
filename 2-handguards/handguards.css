@@ -50,14 +50,12 @@ body{
     background-blend-mode: overlay;
 }
 .hero-text-container {
-    border: solid 5px black;
     min-height: 30vh;
     min-width: 80vw;
     align-self: flex-end;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
 }
 .hero-text {
     font-family: 'EB Garamond', serif;
@@ -68,6 +66,34 @@ body{
 }
 .three {
     padding-left: 45vw;
+}
+@media (min-width: 828px) {
+    .hero-flex-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hero-text-container {
+        min-width: 50vw;
+        align-self: flex-start;
+        margin-top: 10vh;
+    }
+    .hero-text {
+        font-size: 1.1rem;
+    }
+    .two {
+        padding-left: 20vw;
+    }
+    .three {
+        padding-left: 25vw;
+    }
+}
+@media (min-width: 1108px) {
+    .hero-text-container {
+        margin-top: 20vh;
+    }
+    .hero-text {
+        font-size: 1.4rem;
+    }
 }
 
 /* //////////////////////////
@@ -83,9 +109,7 @@ body{
     font-size: 1.4rem;
 }
 .handguard-container {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+   
     
 }
 .handguard-text {
@@ -117,4 +141,48 @@ body{
 .handguard-image {
     max-width: 400px;
     margin: 0 auto;
+}
+
+
+
+/* //////////////////////////
+   FOOTER
+////////////////////////////*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.custom-quotes {
+    height: 10vh;
+    width: 100%;
+    background: rgb(37, 36, 36);
+    text-align: center;
+    display: flex;
+    flex-direction: column;   
+}
+.custom-quotes > p {
+    font-size: 1.15em;
+   font-weight: 650; 
+   letter-spacing: .9px;
+   min-height: 6vh;
+   margin: auto 0;
+   color: rgb(161, 158, 158);
+}
+.footer-contact {
+    font-size: 1.1em;
+    min-height: 10vh;
+    text-decoration: none;
+    padding-top: 3vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(240,240,240,.97);
+    transition: all 350ms;
+}
+.footer-contact:hover,
+.footer-contact:focus {
+    color: #03a9f4 ;
+    font-size: 1.2em;
+    cursor: pointer;
 }
