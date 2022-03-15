@@ -38,3 +38,58 @@ body{
     color: rgb(22, 94, 117);
     cursor: pointer;
 }
+.hero-flex-container {
+    min-height: 100vh;
+    background-image: url('./handguard-images/darkHero.jpg');
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(121, 120, 120);;
+    background-blend-mode: overlay;
+}
+.hero-text-container {
+    border: solid 5px black;
+    min-height: 30vh;
+    min-width: 80vw;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.hero-text {
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+}
+.two {
+    padding-left: 40vw;
+}
+.three {
+    padding-left: 45vw;
+}
+
+/* //////////////////////////
+    HANDGUARD SECTION
+////////////////////////////*/
+
+.what-title {
+    margin: 2em 1em;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    word-spacing: .07em;
+    letter-spacing: .45px;
+    font-size: 1.4rem;
+}
+.handguard-text {
+    font-size: 1em;
+    font-family: adobe-garamond-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.6em;
+    color: rgba(240,240,240,.97);
+    text-align: center;
+}
