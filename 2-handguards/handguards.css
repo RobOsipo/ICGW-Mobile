@@ -290,7 +290,9 @@ footer {
   } 
  .menuIcon{
      margin-bottom: 7px;
+     font-size: 1.5rem;
  }
  .closeIcon{
-     margin-bottom: 7px;
+     margin-bottom: 0px;
+     font-size: 1.5rem;;
  }

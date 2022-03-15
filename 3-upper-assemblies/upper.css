@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,500&display=swap');
+
+/* //////////////////////////
+    GLOBAL STYLES (nav menu at bottom for readability)
+////////////////////////////*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;   
+}
+body{
+    background-color: rgb(29, 28, 28);
+    color: rgba(240,240,240,.97);
+}
+
+/* //////////////////////////
+    HERO SECTION
+////////////////////////////*/
+
+.company-name {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: rgb(7, 7, 7) 5px 5px 10px;
+    color: rgba(240,240,240,.97);
+    transition: color 350ms;
+    padding: 3vh 4vh;
+    max-height: 80px;
+}
+.company-name:hover {
+    color: rgb(22, 94, 117);
+    cursor: pointer;
+}
+.hero-flex-container {
+    min-height: 100vh;
+    background-image: url('./upper-assemblies-images/fullHero.JPG');
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(109, 109, 109);;
+    background-blend-mode: overlay;
+}
+.hero-text {
+    margin: 15vh 25vw 0 auto;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.6rem;
+}
