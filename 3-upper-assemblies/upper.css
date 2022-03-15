@@ -49,7 +49,7 @@ body{
     background-blend-mode: overlay;
 }
 .hero-text {
-    margin: 15vh 25vw 0 auto;
+    margin: 12vh 10vw 0 auto;
     font-family: 'EB Garamond', serif;
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
