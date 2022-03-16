@@ -49,6 +49,9 @@ body{
     .reviews {
         font-size: 1.3rem;
     }
+    .review-title {
+        padding: 5vh;
+    }
 }
 @media (min-width: 1138px) {
     .hero-flex-container {
@@ -58,6 +61,9 @@ body{
     }
     .reviews {
         font-size: 1.5rem;
+    }
+    .review-title {
+        padding: 8vh;
     }
 }
 
@@ -71,7 +77,7 @@ body{
     font-family: 'Acme', sans-serif;
     word-spacing: .07em;
     letter-spacing: .45px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 .comment-box{
     cursor: pointer;
@@ -101,7 +107,17 @@ body{
     text-align: left;
     max-width: 400px;
     margin: 0 auto 4vh 2vw;
-    padding: 10px;
+    padding: 30px 0 15px 5vw;
+}
+@media (min-width: 838px) {
+    .old-reviews {
+        max-width: 700px;
+        text-align: left;
+    }
+    .review-text {
+        max-width: 575px;
+        text-align: left;
+    }
 }
 
 /* //////////////////////////
