@@ -57,9 +57,27 @@ body{
     font-family: 'EB Garamond', serif;
     font-size: 1rem;
 }
+@media (min-width: 838px) {
+    .hero-flex-container {
+        min-height: 80vh;
+        background-position: top;
+    }
+    .hero-flex-item {
+        margin-right: 20vw;
+    }
+}
+@media (min-width: 1138px) {
+    .hero-flex-container {
+        min-height: 80vh;
+        background-position: center top;
+    }
+    .hero-flex-item {
+        margin-right: 20vw;
+    }
+}
 
 /* //////////////////////////
-    HANDGUARD SECTION
+    NEWS & INVENTORY SECTION
 ////////////////////////////*/
 
 .what-title {
@@ -115,7 +133,126 @@ body{
 .in-stock{
     color: rgb(93, 223, 147);
 }
-
 .out-of-stock{
     color: rgb(124, 57, 57);
 }
+
+/* //////////////////////////
+   FOOTER
+////////////////////////////*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.custom-quotes {
+    height: 10vh;
+    width: 100%;
+    background: rgb(37, 36, 36);
+    text-align: center;
+    display: flex;
+    flex-direction: column;   
+}
+.custom-quotes > p {
+    font-size: 1.15em;
+   font-weight: 650; 
+   letter-spacing: .9px;
+   min-height: 6vh;
+   margin: auto 0;
+   color: rgb(161, 158, 158);
+}
+.footer-contact {
+    font-size: 1.1em;
+    min-height: 10vh;
+    text-decoration: none;
+    padding-top: 3vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(240,240,240,.97);
+    transition: all 350ms;
+}
+.footer-contact:hover,
+.footer-contact:focus {
+    color: #03a9f4 ;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* //////////////////////////
+   HAMBURGER MENU
+////////////////////////////*/
+
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 3px;
+    background: rgb(29, 28, 28);
+    color: rgba(240,240,240,.97);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 60%;
+  }
+.closeIcon {
+    display: none;
+  }
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgb(29, 28, 28);
+    color: rgba(240,240,240,.97);
+    list-style: none;
+    padding-top: 4rem;
+    opacity: 95%;
+  }
+.showMenu {
+    transform: translateY(0);
+  }
+.menuItem {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: 0;
+    cursor: pointer;
+    letter-spacing: .8px;
+} 
+.menuItem:hover{
+  color: #03a9f4;
+}
+.menu ul {
+    position: relative;
+  }
+.menu ul li {
+    list-style: none;
+  }
+.menu ul li a {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: rgb(255, 255, 255);
+  }
+.menu ul li a:hover {
+    color: #03a9f4;  
+  } 
+ .menuIcon{
+     margin-bottom: 7px;
+     font-size: 1.5rem;
+ }
+ .closeIcon{
+     margin-bottom: 0px;
+     font-size: 1.5rem;;
+ }
