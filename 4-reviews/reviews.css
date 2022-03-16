@@ -23,23 +23,8 @@ body{
     HERO SECTION
 ////////////////////////////*/
 
-.company-name {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.2em;
-    text-decoration: none;
-    font-weight: 700;
-    text-shadow: rgb(7, 7, 7) 5px 5px 10px;
-    color: rgba(240,240,240,.97);
-    transition: color 350ms;
-    padding: 3vh 4vh;
-    max-height: 80px;
-}
-.company-name:hover {
-    color: rgb(22, 94, 117);
-    cursor: pointer;
-}
 .hero-flex-container {
-    min-height: 30vh;
+    min-height: 40vh;
     background-image: url('./review-images/reviewIcgw.jpg');
     background-size: cover;
     background-position: top left;
@@ -53,7 +38,27 @@ body{
     margin-right: 15vw;
     font-family: 'EB Garamond', serif;
     text-shadow: rgb(122, 129, 131) 0px 0px 10px;
-    font-size: 1.1em;
+    font-size: 1.1rem;
+}
+@media (min-width: 838px) {
+    .hero-flex-container {
+        min-height: 60vh;
+        background-size: cover;
+        background-position: center top;
+    }
+    .reviews {
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 1138px) {
+    .hero-flex-container {
+        min-height: 80vh;
+        background-size: cover;
+        background-position: center top;
+    }
+    .reviews {
+        font-size: 1.5rem;
+    }
 }
 
 /* //////////////////////////
