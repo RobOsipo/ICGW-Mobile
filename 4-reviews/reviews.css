@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,500&display=swap');
@@ -73,4 +73,70 @@ body{
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+.old-reviews {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.review-text {
+    font-size: 1em;
+    font-family: adobe-garamond-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.6em;
+    color: rgba(240,240,240,.97);
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto 4vh;
+}
+.left {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto 4vh 2vw;
+    padding: 10px;
+}
+
+/* //////////////////////////
+   FOOTER
+////////////////////////////*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.custom-quotes {
+    height: 10vh;
+    width: 100%;
+    background: rgb(37, 36, 36);
+    text-align: center;
+    display: flex;
+    flex-direction: column;   
+}
+.custom-quotes > p {
+    font-size: 1.15em;
+   font-weight: 650; 
+   letter-spacing: .9px;
+   min-height: 6vh;
+   margin: auto 0;
+   color: rgb(161, 158, 158);
+}
+.footer-contact {
+    font-size: 1.1em;
+    min-height: 10vh;
+    text-decoration: none;
+    padding-top: 3vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(240,240,240,.97);
+    transition: all 350ms;
+}
+.footer-contact:hover,
+.footer-contact:focus {
+    color: #03a9f4 ;
+    font-size: 1.2em;
+    cursor: pointer;
 }
