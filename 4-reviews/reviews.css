@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,500&display=swap');
+
+/* //////////////////////////
+    GLOBAL STYLES (nav menu at bottom for readability)
+////////////////////////////*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;   
+}
+body{
+    background-color: rgb(29, 28, 28);
+    color: rgba(240,240,240,.97);
+}
+
+/* //////////////////////////
+    HERO SECTION
+////////////////////////////*/
+
+.company-name {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: rgb(7, 7, 7) 5px 5px 10px;
+    color: rgba(240,240,240,.97);
+    transition: color 350ms;
+    padding: 3vh 4vh;
+    max-height: 80px;
+}
+.company-name:hover {
+    color: rgb(22, 94, 117);
+    cursor: pointer;
+}
+.hero-flex-container {
+    min-height: 30vh;
+    background-image: url('./review-images/reviewIcgw.jpg');
+    background-size: cover;
+    background-position: top left;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(102, 102, 102);;
+    background-blend-mode: overlay;
+}
+.reviews {
+    align-self: center;
+    margin-right: 15vw;
+    font-family: 'EB Garamond', serif;
+    text-shadow: rgb(122, 129, 131) 0px 0px 10px;
+    font-size: 1.1em;
+}
+
+/* //////////////////////////
+    COMMENTS/REVIEWS SECTION
+////////////////////////////*/
+
+.review-title {
+    margin: 2em 1em;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    word-spacing: .07em;
+    letter-spacing: .45px;
+    font-size: 1.4rem;
+}
+.comment-box{
+    cursor: pointer;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
