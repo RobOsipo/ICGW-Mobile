@@ -60,7 +60,7 @@ body{
         background-position: center top;
     }
     .reviews {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .review-title {
         padding: 8vh;
@@ -98,7 +98,7 @@ body{
     letter-spacing: 0.5px;
     line-height: 1.6em;
     color: rgba(240,240,240,.97);
-    text-align: center;
+    text-align: left;
     max-width: 450px;
     margin: 0 auto 4vh;
 }
