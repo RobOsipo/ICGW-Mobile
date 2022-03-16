@@ -112,3 +112,10 @@ body{
     color: #646262;
     padding-bottom: 6vh;
 }
+.in-stock{
+    color: rgb(93, 223, 147);
+}
+
+.out-of-stock{
+    color: rgb(124, 57, 57);
+}
