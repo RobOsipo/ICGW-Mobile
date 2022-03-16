@@ -17,17 +17,18 @@
 body{
     background-color: rgb(48, 45, 45);
     color: rgba(240,240,240,.97);
+    font-family: 'Roboto', sans-serif;
 }
 
 /* //////////////////////////
     HERO SECTION
 ////////////////////////////*/
+
 .nav-container {
     background: rgb(29, 28, 28);
-    height: 30vh;
+    height: 10vh;
 }
 .company-name {
-    border: solid black 3px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.7rem;
     text-decoration: none;
@@ -38,6 +39,5 @@ body{
     text-align: center;
 } 
 .nav-list-container {
-    border: solid black 3px;
-    text-align: center;
+   display: none;
 }
