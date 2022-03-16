@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,500&display=swap');
+
+/* //////////////////////////
+    GLOBAL STYLES (nav menu at bottom for readability)
+////////////////////////////*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;   
+}
+body{
+    background-color: rgb(48, 45, 45);
+    color: rgba(240,240,240,.97);
+}
+
+/* //////////////////////////
+    HERO SECTION
+////////////////////////////*/
+.nav-container {
+    background: rgb(29, 28, 28);
+    height: 30vh;
+}
+.company-name {
+    border: solid black 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: rgb(7, 7, 7) 5px 5px 10px;
+    color: rgba(240,240,240,.97);
+    padding: 1vh 0vw;
+    text-align: center;
+} 
+.nav-list-container {
+    border: solid black 3px;
+    text-align: center;
+}
