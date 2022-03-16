@@ -146,6 +146,13 @@ body{
    FOOTER
 ////////////////////////////*/
 
+.flag {
+    font-family: 'Roboto', sans-serif;
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url('./home-images/usa-us-flag.gif');
+    text-shadow: rgb(143, 171, 182) 0px 0px 10px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
 footer {
     display: flex;
     flex-direction: column;

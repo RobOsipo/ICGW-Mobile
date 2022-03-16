@@ -84,6 +84,7 @@ body{
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+    padding: 10vh 2vw;
 }
 .old-reviews {
     max-width: 500px;
