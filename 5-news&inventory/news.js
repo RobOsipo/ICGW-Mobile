@@ -1,10 +1,22 @@
-// to come
+
+// jQuery for hero section 
+
+$('a.company-name').hide()
+$('div.hero-flex-item').hide()
 
 
+setTimeout(() => {
+    $('a.company-name').fadeIn()
+}, 500)
+
+setTimeout(() => {
+    $('div.hero-flex-item').fadeIn()
+}, 1150)
 
 
 
 // This is for my Navigation hamburger menu ///
+
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
 const hamburger= document.querySelector(".hamburger");

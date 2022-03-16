@@ -136,6 +136,11 @@ body{
 .out-of-stock{
     color: rgb(124, 57, 57);
 }
+@media (min-width: 1138px) {
+    .news-text {
+        max-width: 650px;
+    }
+}
 
 /* //////////////////////////
    FOOTER
