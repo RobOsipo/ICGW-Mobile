@@ -116,8 +116,30 @@ body{
     max-width: 400px;
     margin: 0 auto;
 }
-@media (min-width: 828px) {
-    
+@media (min-width: 908px) {
+    .upper-title {
+        margin-left: 3vw;
+        max-width: 700px;
+        font-size: 1.3rem;
+        text-align: left;
+    }
+    .upper-container {
+        display: flex;
+    }
+    .upper-text {
+        text-align: left;
+    }
+    .upper-image-container {
+        align-self: center;
+        max-width: 600px;
+    }
+    .upper-image-three-img {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    .upper-image {
+        max-width: 550px;
+    }
 }
 
 /* //////////////////////////
