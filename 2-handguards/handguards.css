@@ -157,6 +157,7 @@ body{
     }
     .handguard-text {
         text-align: left;
+        max-width: 550px;
     }
     #list-one {
         padding-right: 18vw;

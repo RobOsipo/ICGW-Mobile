@@ -47,7 +47,6 @@ body{
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
-        
     }
     .company-name {
         text-align: left;
@@ -63,6 +62,14 @@ body{
     }
     .nav-list-item {
         list-style: none;
+    }
+    li > a {
+        text-decoration: none;
+        color: rgba(240,240,240,.97);
+    }
+    li > a:hover {
+        color: #03a9f4 ;
+        cursor: pointer;
     }
 }
 
@@ -105,23 +112,23 @@ padding-bottom: 5vh;
 }
 @media (min-width: 1038px) {
     .contact-section {
-        border: solid black 5px;
         display: flex;
         justify-content: space-around;
         align-items: space-around;
     }
     .contact-text-container {
-        border: solid red 2px;
         margin: 0;
+        align-items: center;
+        justify-content: center;
     }
     .contact-text {
         font-size: 1.2rem;
     }
     .info-text {
         font-size: 1.2rem;
+        text-align: left;
     }
     .logo-container {
-        border: solid red 2px;
         margin: 0;
         max-width: 500px;
     }
