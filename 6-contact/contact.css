@@ -41,3 +41,103 @@ body{
 .nav-list-container {
    display: none;
 }
+@media (min-width: 838px) {
+    
+}
+
+/* //////////////////////////
+    CONTACT SECTION
+////////////////////////////*/
+
+.contact-section {
+padding-bottom: 5vh;
+}
+.contact-text-container {
+    display: flex;
+    flex-direction: column;
+}
+.contact-text {
+    margin: 5vh auto 3vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #646262;
+    border-bottom: 1px solid #646262;
+}
+.info-text {
+    font-size: 1rem;
+    font-family: adobe-garamond-pro;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    line-height: 1.6em;
+    color: rgba(240,240,240,.97);
+    margin: 0 auto;
+}
+.logo-container {
+    max-width: 225px;
+    margin: 0 auto;
+    padding-top: 7vh;
+}
+.logo {
+    max-width: 225px;
+}
+
+/* //////////////////////////
+    FORM SECTION
+////////////////////////////*/
+
+.send {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.contact-form{
+  max-width: 400px;
+  margin: 0 auto 5vh;
+}
+button{
+    width: 100px;
+    height: 40px;
+    transition: all 350ms;
+}
+button:hover{
+   background-color: #03a9f4 ;
+   font-size: 1.1rem;
+   cursor: pointer;
+}
+
+/* //////////////////////////
+    FOOTER SECTION
+////////////////////////////*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(29, 28, 28);;
+  height: 75px;
+}
+.contact-us{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 50px;
+ }
+.contact {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2rem;
+  transition: all 350ms;
+}
+.contact:hover {
+  color: #03a9f4 ;
+  font-size: 1.4rem;
+  cursor: pointer;
+      
+}
+
+
