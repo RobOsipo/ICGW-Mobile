@@ -6,11 +6,11 @@ $('div.hero-flex-item').hide()
 
 
 setTimeout(() => {
-    $('a.company-name').fadeIn()
+    $('a.company-name').fadeIn(800)
 }, 500)
 
 setTimeout(() => {
-    $('div.hero-flex-item').fadeIn()
+    $('div.hero-flex-item').fadeIn(800)
 }, 1150)
 
 

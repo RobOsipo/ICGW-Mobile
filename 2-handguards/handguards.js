@@ -4,11 +4,11 @@ $('div.hero-text-container').hide()
 
 
 setTimeout(() => {
-    $('a.company-name').fadeIn()
+    $('a.company-name').fadeIn(800)
 }, 500)
 
 setTimeout(() => {
-    $('div.hero-text-container').fadeIn()
+    $('div.hero-text-container').fadeIn(800)
 }, 1150)
 
 

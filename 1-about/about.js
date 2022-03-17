@@ -8,15 +8,15 @@ $('h2.flag').hide()
 $('h3.about-title').css('padding-top', '30vh')
 
 setTimeout(() => {
-    $('a.company-name').fadeIn()
+    $('a.company-name').fadeIn(800)
 }, 500)
 
 setTimeout(() => {
-    $('h1.about').fadeIn()
+    $('h1.about').fadeIn(800)
 }, 1150)
 
 setTimeout(() => {
-    $('h2.flag').fadeIn()
+    $('h2.flag').fadeIn(800)
 }, 1500)
 
 setTimeout(() => {

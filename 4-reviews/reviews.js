@@ -4,7 +4,7 @@
 $('h1.reviews').hide();
 
 setTimeout(() => {
-    $('h1.reviews').fadeIn()
+    $('h1.reviews').fadeIn(800)
 }, 600)
 
 

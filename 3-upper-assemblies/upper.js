@@ -5,11 +5,11 @@ $('a.company-name').hide();
 $('p.hero-text').hide();
 
 setTimeout(() => {
-    $('a.company-name').fadeIn();
+    $('a.company-name').fadeIn(800);
 }, 500)
 
 setTimeout(() => {
-    $('p.hero-text').fadeIn();
+    $('p.hero-text').fadeIn(800);
 }, 1150)
 
 
