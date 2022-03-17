@@ -108,7 +108,8 @@ body{
        padding-top: 10vh;
     }
     .hero-flex-item {
-        padding-bottom: 8vh;;
+        padding-bottom: 8vh;
+        font-size: 1.2rem;
     }
     .three {
         padding-left: 6vw;
