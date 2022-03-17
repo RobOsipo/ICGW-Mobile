@@ -181,6 +181,14 @@ body{
         margin-right: 10vw;
     }
 }
+@media (min-width: 1538px) {
+    #list-three {
+        display: none;
+    }
+    .what-title {
+        font-size: 1.8rem;
+    }
+}
 
 
 

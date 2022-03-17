@@ -72,6 +72,14 @@ body{
     font-size: 1.4rem;
   }
 }
+@media (min-width: 1128px) {
+  .company-name {
+    font-size: 1.8rem;
+}
+  .about {
+  font-size: 1.7rem;
+}
+}
 
 /* //////////////////////////
     ABOUT  SECTION
@@ -132,6 +140,8 @@ body{
 @media (min-width: 1128px) {
     .about-title {
         margin-left: 10vw;
+        font-size: 1.3rem;
+        max-width: 800px;
     }
     .flag {
         max-width: 630px;

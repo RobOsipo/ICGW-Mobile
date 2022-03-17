@@ -24,6 +24,7 @@ body{
 ////////////////////////////*/
 
 .company-name {
+    max-width: 600px;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.2em;
     text-decoration: none;
