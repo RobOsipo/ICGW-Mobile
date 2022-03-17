@@ -58,6 +58,12 @@ body{
     font-size: 1rem;
 }
 @media (min-width: 838px) {
+    .company-name {
+        font-size: 1.4rem;
+    }
+    .hero-text {
+        font-size: 1.2rem;
+    }
     .hero-flex-container {
         min-height: 80vh;
         background-position: top;
@@ -67,6 +73,12 @@ body{
     }
 }
 @media (min-width: 1138px) {
+    .company-name {
+        font-size: 1.6rem;
+    }
+    .hero-text {
+        font-size: 1.4rem;
+    }
     .hero-flex-container {
         min-height: 80vh;
         background-position: center top;

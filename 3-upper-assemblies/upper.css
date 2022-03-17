@@ -58,11 +58,17 @@ body{
         font-size: 1.3rem;
         margin: 12vh 13vw 0 auto;
     }
+    .company-name {
+        font-size: 1.4rem;
+    }
 }
 @media (min-width: 1108px) {
     .hero-text {
         font-size: 1.5rem;
         margin: 5vh 18vw 0 auto;
+    }
+    .company-name {
+        font-size: 1.6rem;
     }
     .hero-flex-container {
         background-position: center;
