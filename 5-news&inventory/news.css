@@ -153,6 +153,11 @@ body{
         max-width: 650px;
     }
 }
+@media (min-width: 1538px) {
+    .news-title {
+        font-size: 1.6rem;
+    }
+}
 
 /* //////////////////////////
    FOOTER

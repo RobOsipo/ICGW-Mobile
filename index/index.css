@@ -44,7 +44,7 @@ body{
     background-position: center;
     display: flex;
     flex-direction: column;
-    background-color: rgb(70, 69, 69);;
+    background-color: rgb(95, 95, 95);;
     background-blend-mode: overlay;
 }
 .top {
@@ -80,7 +80,6 @@ body{
         flex-direction: column;
         min-height: 120vh;
         background-position: top;
-       
     }
     .bottom {
         justify-content: space-around;
