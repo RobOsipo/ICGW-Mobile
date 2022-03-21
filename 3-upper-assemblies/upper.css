@@ -75,6 +75,14 @@ body{
         background-position: center;
     }
 }
+@media (min-width: 1628px) {
+    .company-name {
+      font-size: 2rem;
+    }
+    .hero-text {
+        padding-top: 6vh;
+    }
+}
 
 /* //////////////////////////
     UPPER ASSEMBLIES SECTION

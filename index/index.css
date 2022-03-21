@@ -118,10 +118,17 @@ body{
 }
 @media (min-width: 1628px) {
   .company-name {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   .hero-flex-item {
     font-size: 1.4em;
+    
+  }
+  .three {
+    padding-left: 10vw;
+  }
+  .flag {
+    font-size: 4rem;
   }
 }
 

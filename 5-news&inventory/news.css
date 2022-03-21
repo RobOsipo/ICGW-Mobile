@@ -87,6 +87,11 @@ body{
         margin-right: 20vw;
     }
 }
+@media (min-width: 1628px) {
+    .company-name {
+      font-size: 2rem;
+    }
+}
 
 /* //////////////////////////
     NEWS & INVENTORY SECTION

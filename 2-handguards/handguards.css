@@ -101,6 +101,12 @@ body{
         font-size: 1.6rem;
     }
 }
+@media (min-width: 1628px) {
+    .company-name {
+      font-size: 2rem;
+    }
+}
+
 
 /* //////////////////////////
     HANDGUARD SECTION
