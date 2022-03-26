@@ -104,6 +104,7 @@ body{
     font-weight: 300;
     color: #646262;
     padding-bottom: 6vh;
+    text-transform: uppercase;
 }
 .upper-text {
     font-size: 1em;
@@ -154,6 +155,20 @@ body{
     }
     .upper-image {
         max-width: 550px;
+    }
+}
+@media (min-width: 1628px) {
+    .upper-text {
+        max-width: 650px;
+    }
+    .upper-container {
+        align-items: center;
+    }
+    .what-title {
+        font-size: 1.7rem;
+    }
+    .upper-title {
+        max-width: 930px;
     }
 }
 
