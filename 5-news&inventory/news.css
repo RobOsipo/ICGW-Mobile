@@ -205,6 +205,14 @@ footer {
     font-size: 1.2em;
     cursor: pointer;
 }
+@media (min-width: 1628px) {
+    .custom-quotes > p {
+      font-size: 1.25em;
+  }
+  .footer-contact {
+    font-size: 1.3em;
+  }
+  }
 
 /* //////////////////////////
    HAMBURGER MENU

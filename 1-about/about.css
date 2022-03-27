@@ -72,7 +72,7 @@ body{
     font-size: 1.4rem;
   }
 }
-@media (min-width: 1128px) {
+@media (min-width: 1628px) {
   .company-name {
     font-size: 1.8rem;
 }
@@ -189,7 +189,7 @@ body{
   /* Caption text */
   .text {
     color: rgb(29, 28, 28);
-    color: rgb(136, 136, 55);
+    color: rgb(99, 99, 50);
     font-size: 25px;
     padding: 8px 12px;
     position: absolute;
@@ -280,6 +280,14 @@ footer {
     color: #03a9f4 ;
     font-size: 1.2em;
     cursor: pointer;
+}
+@media (min-width: 1628px) {
+  .custom-quotes > p {
+    font-size: 1.25em;
+}
+.footer-contact {
+  font-size: 1.3em;
+}
 }
 
 /* //////////////////////////
