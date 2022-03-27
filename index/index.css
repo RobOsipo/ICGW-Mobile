@@ -69,8 +69,9 @@ body{
     font-family: 'Roboto', sans-serif;
     -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url('./home-images/usa-us-flag.gif');
     text-shadow: rgb(143, 171, 182) 0px 0px 10px;
-    font-size: 1.3em;
+    font-size: 1.25em;
     font-weight: 600;
+    
 }
 @media (min-width: 828px) {
     .company-name {
@@ -208,6 +209,12 @@ body{
     max-width: 800px;
     position: relative;
     margin: auto;
+    box-shadow: 3px 1px 2px 6px rgba(0,0,0,0.09), 
+    3px 2px 4px 6px rgba(0,0,0,0.09), 
+    3px 4px 8px 6px rgba(0,0,0,0.09), 
+    3px 8px 16px 6px rgba(0,0,0,0.09),
+    3px 16px 32px 6px rgba(0,0,0,0.09), 
+    3px 32px 64px 6px rgba(0,0,0,0.09);
   }
   /* Hide the images by default */
   .mySlides {
@@ -338,6 +345,9 @@ footer {
 }
 .footer-contact {
   font-size: 1.3em;
+}
+.custom-quotes > p {
+  margin-top: 3vh;
 }
 }
 
