@@ -193,6 +193,11 @@ body{
         font-size: 1.6em;
     }
 }
+@media (min-width: 1628px) {
+  .origin-title {
+    font-size: 1.8rem;
+  }
+}
 
 /* //////////////////////////
    IMAGE CAROUSEL

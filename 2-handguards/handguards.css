@@ -153,6 +153,7 @@ body{
 .handguard-image {
     max-width: 400px;
     margin: 0 auto;
+    box-shadow: rgb(103, 103, 104) 0px 0px 15px 2px;
 }
 @media (min-width: 838px) {
     .handguard-container {
