@@ -189,7 +189,7 @@ body{
         margin-right: 10vw;
     }
 }
-@media (min-width: 1538px) {
+@media (min-width: 1638px) {
     #list-three {
         display: none;
     }
