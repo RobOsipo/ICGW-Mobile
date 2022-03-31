@@ -205,6 +205,11 @@ footer {
     font-size: 1.2em;
     cursor: pointer;
 }
+@media (min-width: 728px) {
+    .custom-quotes > p {
+      margin-top: 3.5vh;
+    }
+  }
 @media (min-width: 1628px) {
     .custom-quotes > p {
       font-size: 1.25em;
