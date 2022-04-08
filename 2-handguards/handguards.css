@@ -162,6 +162,10 @@ body{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        gap: 50px;
+    }
+    .order {
+        order: 1;
     }
     .handguard-title {
         margin-left: 3vw;
@@ -187,7 +191,11 @@ body{
     }
     #list-three {
         margin-right: 10vw;
+        margin-left: 3vw;
     }
+}
+@media (min-width: 838px) {
+
 }
 @media (min-width: 1458px) {
     #list-three {
@@ -195,6 +203,11 @@ body{
     }
     .what-title {
         font-size: 1.8rem;
+    }
+}
+@media (min-width: 2300px) {
+    .desktop {
+        margin-left: 2.5rem;
     }
 }
 
