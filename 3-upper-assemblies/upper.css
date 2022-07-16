@@ -172,6 +172,15 @@ body{
     .upper-title {
         max-width: 930px;
     }
+    .upper-image-container {
+        align-self: center;
+        max-width: 750px;
+    }
+    .upper-image-three-img {
+        max-width: 250px;
+        margin: 0 auto;
+        box-shadow: rgb(103, 103, 104) 0px 0px 15px 2px;
+    }
 }
 
 /* //////////////////////////
